@@ -1,0 +1,198 @@
+[
+  {
+    "id": 5,
+    "student": "Апазова Карина",
+    "subject": "ПМ 05",
+    "grade": "79",
+    "addedBy": 1
+  },
+  {
+    "id": 2,
+    "student": "Ахметжанова Камила",
+    "subject": "ПМ 05",
+    "grade": "75",
+    "addedBy": 1
+  },
+  {
+    "id": 3,
+    "student": "Бабинец Роман",
+    "subject": "ПМ 05",
+    "grade": "53",
+    "addedBy": 1
+  },
+  {
+    "id": 4,
+    "student": "Баймурзенов Рустем",
+    "subject": "ПМ 05",
+    "grade": "65",
+    "addedBy": 1
+  },
+  {
+    "id": 5,
+    "student": "Барташевич Артем",
+    "subject": "ПМ 05",
+    "grade": "93",
+    "addedBy": 1
+  },
+  {
+    "id": 6,
+    "student": "Белоус Александр",
+    "subject": "ПМ 05",
+    "grade": "70",
+    "addedBy": 1
+  },
+  {
+    "id": 7,
+    "student": "Боголюбов Никита",
+    "subject": "ПМ 05",
+    "grade": "93",
+    "addedBy": 1
+  },
+  {
+    "id": 8,
+    "student": "Дорошина Татьяна",
+    "subject": "ПМ 05",
+    "grade": "95",
+    "addedBy": 1
+  },
+  {
+    "id": 9,
+    "student": "Исабаева Азалия",
+    "subject": "ПМ 05",
+    "grade": "75",
+    "addedBy": 1
+  },
+  {
+    "id": 10,
+    "student": "Искандиров Роман",
+    "subject": "ПМ 05",
+    "grade": "74",
+    "addedBy": 1
+  },
+  {
+    "id": 11,
+    "student": "Каменский Александр",
+    "subject": "ПМ 05",
+    "grade": "93",
+    "addedBy": 1
+  },
+  {
+    "id": 12,
+    "student": "Князев Илья",
+    "subject": "ПМ 05",
+    "grade": "71",
+    "addedBy": 1
+  },
+  {
+    "id": 13,
+    "student": "Кульбаев Назар",
+    "subject": "ПМ 05",
+    "grade": "60",
+    "addedBy": 1
+  },
+  {
+    "id": 14,
+    "student": "Миниченко Мария",
+    "subject": "ПМ 05",
+    "grade": "98",
+    "addedBy": 1
+  },
+  {
+    "id": 15,
+    "student": "Нагашыбай Рахат",
+    "subject": "ПМ 05",
+    "grade": "81",
+    "addedBy": 1
+  },
+  {
+    "id": 16,
+    "student": "Овсянников Данил",
+    "subject": "ПМ 05",
+    "grade": "76",
+    "addedBy": 1
+  },
+  {
+    "id": 17,
+    "student": "Павловская Анна",
+    "subject": "ПМ 05",
+    "grade": "81",
+    "addedBy": 1
+  },
+  {
+    "id": 18,
+    "student": "Пышная Вера",
+    "subject": "ПМ 05",
+    "grade": "84",
+    "addedBy": 1
+  },
+  {
+    "id": 19,
+    "student": "Руди Валерия",
+    "subject": "ПМ 05",
+    "grade": "60",
+    "addedBy": 1
+  },
+  {
+    "id": 20,
+    "student": "Салиева Аида",
+    "subject": "ПМ 05",
+    "grade": "84",
+    "addedBy": 1
+  },
+  {
+    "id": 21,
+    "student": "Сариев Жасұлан",
+    "subject": "ПМ 05",
+    "grade": "77",
+    "addedBy": 1
+  },
+  {
+    "id": 22,
+    "student": "Семерной Данил",
+    "subject": "ПМ 05",
+    "grade": "73",
+    "addedBy": 1
+  },
+  {
+    "id": 23,
+    "student": "Сергазин Данияр",
+    "subject": "ПМ 05",
+    "grade": "78",
+    "addedBy": 1
+  },
+  {
+    "id": 24,
+    "student": "Стасин Ярослав",
+    "subject": "ПМ 05",
+    "grade": "80",
+    "addedBy": 1
+  },
+  {
+    "id": 25,
+    "student": "Ташманова Диана",
+    "subject": "ПМ 05",
+    "grade": "82",
+    "addedBy": 1
+  },
+  {
+    "id": 26,
+    "student": "Третьяк Алина",
+    "subject": "ПМ 05",
+    "grade": "83",
+    "addedBy": 1
+  },
+  {
+    "id": 27,
+    "student": "Турдалы Адильжан",
+    "subject": "ПМ 05",
+    "grade": "63",
+    "addedBy": 1
+  },
+  {
+    "id": 28,
+    "student": "Югай Наталья",
+    "subject": "ПМ 05",
+    "grade": "87",
+    "addedBy": 1
+  }
+]

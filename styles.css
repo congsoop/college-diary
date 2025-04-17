@@ -1,0 +1,140 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body.sb-nav-fixed #layoutSidenav {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+}
+
+body.sb-nav-fixed #layoutSidenav #layoutSidenav_nav {
+    width: 225px;
+    height: 100vh; /* Полная высота viewport */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.sb-sidenav-toggled #layoutSidenav_nav {
+    transform: translateX(-100%);
+}
+
+.sb-sidenav-dark {
+    background-color: #212529;
+    color: rgba(255, 255, 255, 0.75);
+    flex: 1; /* Растягиваем панель */
+    display: flex;
+    flex-direction: column;
+}
+
+.sb-sidenav-menu {
+    padding: 0;
+    flex: 1; /* Растягиваем меню */
+    overflow-y: auto; /* Добавляем прокрутку, если контента много */
+}
+
+.sb-sidenav-menu .nav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.sb-sidenav-menu-heading {
+    padding: 0.75rem 1rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sb-nav-link-icon {
+    margin-right: 0.5rem;
+}
+
+.sb-sidenav-collapse-arrow {
+    margin-left: auto;
+    transition: transform 0.15s ease;
+}
+
+.nav-link[aria-expanded="true"] .sb-sidenav-collapse-arrow {
+    transform: rotate(-180deg);
+}
+
+.sb-sidenav-menu-nested {
+    padding-left: 1.5rem;
+}
+
+.sb-sidenav-footer {
+    padding: 0.75rem;
+    background-color: rgba(0, 0, 0, 0.15);
+    width: 100%;
+    flex-shrink: 0; /* Футер не сжимается */
+}
+
+#layoutSidenav_content {
+    margin-left: 225px;
+    padding-top: 56px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    transition: margin-left 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.sb-sidenav-toggled #layoutSidenav_content {
+    margin-left: 0;
+}
+
+.sb-topnav {
+    z-index: 1035;
+}
+
+/* Футер */
+footer {
+    padding: 1rem 0;
+    background-color: #f8f9fa;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+footer .footer-content {
+    margin-left: 225px;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.sb-sidenav-toggled footer .footer-content {
+    margin-left: 0;
+}
